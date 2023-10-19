@@ -5,9 +5,9 @@
 #include <stdio.h>
 
 /**
-* main - prints the alphabet in lowercase, and then in uppercase.
+* main - Program entry point
 *
- Return: always 0.
+ Return: always 0 (success)
 */
 int main(void)
 {
@@ -21,6 +21,6 @@ putchar(letter);
 
 putchar('\n');
 
-return (0);
+return 0;
 }
 
