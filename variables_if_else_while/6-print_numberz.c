@@ -1,6 +1,6 @@
 /*
- * 6-print_numberz.c
- */
+ * File: 6-print_numberz.c
+ *
 
 #include <stdio.h>
 
@@ -12,12 +12,12 @@
  */
 int main(void)
 {
-        int num;
+	int num;
+	
+	for (num = 0; num < 10; num++)
+	putchar((num % 10) + '0');
 
-        for (num = 0; num < 10; num++)
-                putchar((num % 10) + '0');
+	putchar('\n');
 
-        putchar('\n');
-
-        return (0);
+	return (0);
 }
