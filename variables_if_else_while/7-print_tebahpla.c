@@ -8,7 +8,7 @@
  * main - prints the lowercase alphabet in reverse,
  * followed by a new line
  *
- * Return Always 0.
+ * Return Always 0 (Succes)
  */
 int main(void)
 {
